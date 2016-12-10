@@ -19,4 +19,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/sample_text"
+        android:layout_toEndOf="@+id/sample_text"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:id="@+id/button"
+        android:onClick="onClickButtonExe" />
 </RelativeLayout>
